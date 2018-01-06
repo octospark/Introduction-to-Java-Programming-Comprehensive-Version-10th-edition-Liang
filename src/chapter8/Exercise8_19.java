@@ -16,15 +16,15 @@ public class Exercise8_19 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter the dimensions of the array: ");
-		int size = input.nextInt();
-		int[][] values = new int[size][size];
-		values = randomBinarySquareMatrix(size);
-		/*
+		int rows = input.nextInt();
+		int columns = input.nextInt();
+		int[][] values = new int[rows][columns];
+		
 		System.out.println("Enter values for the (" + rows + "x" + columns + ") matrix: ");
 		for (int i = 0; i < values.length; i++)
 			for (int j = 0; j < values[i].length; j++)
 				values[i][j] = input.nextInt();
-		*/
+		
 		System.out.println(isConsecutiveFour(values));	
 		printMatrix(values);
 		input.close();

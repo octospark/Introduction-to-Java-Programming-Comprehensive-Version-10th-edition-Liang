@@ -1,0 +1,19 @@
+package chapter11;
+
+/**
+ * @author Erlin Goce
+ *
+ * Feb 10, 2018 2:24:58 PM
+ */
+public class PolymorphismDemo {
+	public static void main(String[] args) {
+		// Display circle and rectangle properties
+		displayObject(new CircleFromSimpleGeometricObject(1, "red", false));
+		displayObject(new RectangleFromSimpleGeometricObject(1, 1, "black", true));
+	}
+	/** Display geometric object properties */
+	public static void displayObject(SimpleGeometricObject object) {
+		System.out.println("Created on " + object.getDateCreated() +
+				". Color is " + object.getColor());
+	}
+}

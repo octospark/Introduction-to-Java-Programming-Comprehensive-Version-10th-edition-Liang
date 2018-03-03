@@ -30,12 +30,12 @@ public class SimpleCircle {
 	
 	double radius;
 	/** Construct a circle with radius 1 */
-	SimpleCircle(){
+	public SimpleCircle(){
 		radius=1;
 	}
 	
 	/** Construct a circle with a specified radius */
-	SimpleCircle(double newRadius){
+	public SimpleCircle(double newRadius){
 		radius = newRadius;
 	}
 	

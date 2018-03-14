@@ -7,7 +7,7 @@ package chapter13;
  */
 public class TestRationalClass {
 	public static void main(String[] args) {
-		// Create and initialize two rational numbers
+		// Create and initialize two  rational numbers
 		Rational r1 = new Rational(4, 2);
 		Rational r2 = new Rational(2, 3);
 		

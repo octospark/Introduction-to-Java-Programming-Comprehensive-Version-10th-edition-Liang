@@ -40,12 +40,12 @@ public class Rational extends Number implements Comparable<Rational> {
 		return numerator;
 	}
 	
-	/** return denominator */
+	/**  return denominator */
 	public long getDenominator() {
 		return denominator;
 	}
 	
-	/** Add a rational number to this rational */
+	/**  Add a rational number to this rational */
 	public Rational add(Rational secondRational) {
 		long n = numerator * secondRational.getDenominator() + 
 				denominator * secondRational.getNumerator();

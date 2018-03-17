@@ -64,7 +64,7 @@ public class Triangle extends GeometricObject {
 		this.side2 = side2;
 		this.side3 = side3;
 		if (!isValidTriangle())
-			throw new Exception("Error: Invalid values for sides of triangle");
+			throw new Exception("Error: Invalid values for sides of given triangle");
 		setColor(color);
 		setFilled(filled);
 	}

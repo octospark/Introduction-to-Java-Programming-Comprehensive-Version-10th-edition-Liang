@@ -15,7 +15,7 @@ package chapter13;
 public class Exercise13_05 {
 	public static void main(String[] args) {
 		GeometricObject o1 = new Circle(2);
-		GeometricObject o2 = new Circle(3);
+		GeometricObject o2 = new Circle(5);
 		GeometricObject o3 = new Rectangle(2, 5);
 		GeometricObject o4 = new Rectangle(2, 7);
 		

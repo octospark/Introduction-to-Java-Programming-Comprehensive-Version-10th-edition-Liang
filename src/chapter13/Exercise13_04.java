@@ -59,7 +59,7 @@ public class Exercise13_04 {
 		// Get number of days in the month
 		int numberOfDaysInMonth = getNumberOfDaysInMonth(year, month);
 		
-		// Pad space before the first day of month
+		// Pad space before the first day of the month
 		int i = 0;
 		for (i = 0; i < startDay; i++)
 			System.out.print("    ");

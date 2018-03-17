@@ -11,7 +11,7 @@ import java.util.ArrayList;
 public class Exercise13_03 {
 	public static void main(String[] args) {
 		ArrayList<Number> list= new ArrayList<>();
-		list.add(9);
+		list.add(7);
 		list.add(5);
 		list.add(8);
 		list.add(1);

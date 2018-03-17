@@ -49,7 +49,7 @@ public abstract class GeometricObject implements Comparable<GeometricObject> {
 	
 	@Override
 	public String toString() {
-		return "created on " + dateCreated + "\ncolor: " + color + " and fileld : " + filled;
+		return "created on " + dateCreated + "\ncolor: " + color + " and filled : " + filled;
 	}
 	
 	/** Abstract method getArea */

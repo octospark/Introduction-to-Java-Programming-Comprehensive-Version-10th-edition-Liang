@@ -52,5 +52,7 @@ private double radius;
 		System.out.println("The circle is created " + getDateCreated() + 
 				" and the radius is " + radius);
 	}
-	
+	public boolean compareTo() {
+		return true;
+	}
 }

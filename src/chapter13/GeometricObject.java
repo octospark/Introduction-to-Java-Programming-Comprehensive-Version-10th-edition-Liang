@@ -5,7 +5,7 @@ import java.util.Date;
  *
  * Mar 10, 2018 8:05:45 PM
  */
-public abstract class GeometricObject {
+public abstract class GeometricObject implements Comparable<GeometricObject> {
 	private String color = "white";
 	private boolean filled;
 	private Date dateCreated;
@@ -57,4 +57,21 @@ public abstract class GeometricObject {
 	
 	/** Abstract method getPerimeter */
 	public abstract double getPerimeter();
+	
+	@Override
+	public int compareTo(GeometricObject o) {
+		if (getArea() > o.getArea())
+			return 1;
+		else if(getArea() < o.getArea())
+			return -1;
+		else
+			return 0;
+	}
+	public static GeometricObject max(GeometricObject o1, GeometricObject o2) {
+		if (o1.compareTo(o2) >= 1)
+			return o1;
+		else
+			return o2;
+	}
+	
 }
